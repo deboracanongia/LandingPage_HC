@@ -16,7 +16,7 @@ cadastro.addEventListener('submit', (e) => {
 
     let loader = '<img src= "./assets/gif/loader.gif" alt="icone carregando">'
 
-    let registrado = `<p> ${nome} parabéns!  seu cadastro foi realizado com sucesso!
+    let registrado = `<p> ${nome} parabéns!  Seu cadastro foi realizado com sucesso!
     Seu voucher chegará em seu e-mail em até 48h aguarde! </p>`
 
     cardContent.innerHTML = loader;
